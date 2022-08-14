@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>My calculator</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="javascript.js"></script> 
+</head>
+
+  <body>
+     
+  <form action="" method="GET">
+  <fieldset>
+   <legend> My calculator </legend>
+   <textarea id="output"> </textarea>
+  </fieldset>
+      
+      <br> 
+     <fieldset>
+    <legend> Input </legend>
+    <table>
+    <tr>
+        <td> <label>Operands:</label></td>
+        <td colspan="3"><input type="text" id="operand1" required></td>
+        <td colspan="3"><input type="text" id="operand2" required></td>
+       </tr>
+      
+       
+  <tr>
+  <td> <label> Operator: </label> </td>
+  <td> <button onclick="Add(); return false;"> 
+      
+  +</button></td>
+
+   <td> <button onclick="Multiply(); return false;"> 
+        *</button></td>
+     <td> <button onclick="Divide(); return false;">:</button></td>
+     <td> <button onclick="Clear(); return false;">Clear</button></td>
+     </tr>
+     </table>
+
+ </fieldset>
+   </form>
+ </body>
+
+</html>
